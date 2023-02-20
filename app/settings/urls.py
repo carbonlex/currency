@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from currency.views import list_rates, list_contact_us
 
+#
 
 urlpatterns = [
     path('admin/', admin.site.urls),
